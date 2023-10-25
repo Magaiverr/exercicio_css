@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: linear-gradient(to bottom, #6600cc, #330066);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+}
+
+.end {
+    padding-top: 24.2vh;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: black;
+}
+
+img {
+    width: 640px;
+    height: 426px;
+    margin-right: 20px;
+
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.esportes-color {
+    background: linear-gradient(to bottom, #9b59b6, #b87ed1, #f1c40f, #f4d03f);
+    color: white; /* Cor do texto nas seções de esportes */
+}
+
+.esportes-color_opa,
+.economia-color_opa,
+.tecnologia-color_opa,
+.jogos-color_opa {
+    background-color: rgba(204, 0, 255, 0.0)
+}
+
+.economia-color {
+    background: linear-gradient(to bottom, #ff9900, #ff33cc);
+    color: white; /* Cor do texto nas seções de economia */
+}
+
+.tecnologia-color {
+    background: linear-gradient(to bottom, #66ccff, #ff66cc);
+    color: white; /* Cor do texto nas seções de tecnologia */
+}
+
+.jogos-color {
+    background: linear-gradient(to bottom, #00cc99, #ffcc00, #9933cc);
+    color: white; /* Cor do texto nas seções de jogos */
+}
